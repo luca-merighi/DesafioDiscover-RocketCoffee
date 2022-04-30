@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-1: #000;
+    --dark-2: #29292E;
+    --dark-transparent: #29292e80;
+
+    --white-2: #E1E1E6;
+    --white-1: #fff;
+    --grey: #A8A8B3;
+
+    --purple-1: #8257E5;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+    background: 
+            url('../img/rocket-coffee.png') no-repeat bottom/contain,
+            url('../img/blur-1.png') no-repeat bottom left;
+    background-color: var(--dark-1);
+}
+
+@media(min-width: 768px) {
+    body {
+        background: 
+            url('../img/rocket-coffee.png') no-repeat bottom/cover,
+            url('../img/blur-1.png') no-repeat bottom center 100%;
+        background-color: var(--dark-1);
+    }
+}
+
+@media(min-width: 1024px) {
+    body {
+        background: 
+            url('../img/rocket-coffee.png') no-repeat 50% 100%,
+            url('../img/blur-1.png') no-repeat bottom right 100%,
+            url('../img/blur-2.png') no-repeat top left 100%;
+        background-color: var(--dark-1);
+    }
+}
+
+@media(min-width: 1366px) {
+    body {
+        background: 
+            url('../img/rocket-coffee.png') no-repeat 50% 100%,
+            url('../img/blur-1.png') no-repeat bottom right 100%,
+            url('../img/blur-2.png') no-repeat top left 100%;
+        background-color: var(--dark-1);
+    }
+}
+
+@media(min-width: 1920px) {
+    body {
+        background: 
+            url('../img/rocket-coffee.png') no-repeat bottom/cover,
+            url('../img/blur-1.png') no-repeat bottom right 100%,
+            url('../img/blur-2.png') no-repeat top left 100%;
+        background-color: var(--dark-1);
+        background-size: auto;
+    }
+}
